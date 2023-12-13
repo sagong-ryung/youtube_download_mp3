@@ -1,0 +1,6 @@
+driver_ver.py
+*exe
+result/*
+env
+!*.gitkeep
+requirements.txt
