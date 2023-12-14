@@ -1,7 +1,4 @@
-Certainly! It looks like you have a simple script for downloading audio from YouTube using `yt_dlp`. Below is a basic README template you can use:
-
-```markdown
-# YouTube Audio Downloader
+# YouTube Audio Downloader for MP3
 
 This script allows you to download audio from YouTube videos and playlists in MP3 format.
 
@@ -9,12 +6,17 @@ This script allows you to download audio from YouTube videos and playlists in MP
 
 - Python 3
 - `yt_dlp` library
+- ffmpeg
 
-Install the required library using:
+Install yt_dlp
 
 ```bash
 pip install yt_dlp
 ```
+
+download ffmpeg
+
+[https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases)
 
 ## Usage
 
@@ -22,7 +24,7 @@ pip install yt_dlp
 
 ```bash
 git clone https://github.com/yourusername/youtube-audio-downloader.git
-cd youtube-audio-downloader
+cd youtube_download_mp3
 ```
 
 2. Modify the `main()` function in `main.py` to include the YouTube URLs you want to download.
@@ -54,7 +56,3 @@ You can customize the output directory and other options in the `YoutubeDowonloa
 Make sure to comply with YouTube's terms of service when using this script. Downloading videos without permission may violate YouTube's policies.
 
 **Note:** Ensure that you have the necessary rights to download and use the content.
-
-```
-
-Feel free to customize the README according to your project's specifics and include any additional information or instructions.
