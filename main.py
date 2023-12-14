@@ -36,7 +36,7 @@ def main():
         "https://www.youtube.com/XXXXXXXXXX",
         ]
 
-    yd = YoutubeDowonloader(URL_LIST)
+    yd = YoutubeDowonloader()
     yd.download(URL_LIST)
 
 main()
