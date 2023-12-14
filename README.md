@@ -45,7 +45,7 @@ yd.download(URL_LIST)
 python main.py
 ```
 
-The downloaded audio files will be saved in the `/result` directory.
+The downloaded audio files will be saved in the `./result` directory.
 
 ## Configuration
 
