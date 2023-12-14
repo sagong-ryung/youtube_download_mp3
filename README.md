@@ -18,6 +18,12 @@ download ffmpeg
 
 [https://github.com/BtbN/FFmpeg-Builds/releases](https://github.com/BtbN/FFmpeg-Builds/releases)
 
+From the downloaded zip file, put it on the same level as yt-dlp.exe
+```
+ffmpeg.exe
+ffprobe.exe
+```
+
 ## Usage
 
 1. Clone the repository:
