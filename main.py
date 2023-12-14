@@ -9,7 +9,7 @@ class YoutubeDowonloader:
             url_list (list): list of urls
         """
 
-        self.output_path = "/result"
+        self.output_path = "./result"
         self.ydl_opts = {
             "format": "mp3/bestaudio/best",
             "postprocessors": [
