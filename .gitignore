@@ -3,4 +3,3 @@ driver_ver.py
 result/*
 env
 !*.gitkeep
-requirements.txt
